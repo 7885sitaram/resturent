@@ -7,6 +7,7 @@
 }
 
 
+
 .shortcut{
 
     height: 80px;
@@ -25,19 +26,31 @@
 }
 
 .container{
+    
+    height: 822px;
+    width: 1268px;
+    margin: auto;
+
+}
+
+.bgimg{
 
     height: 822px;
     width: 1268px;
-    background: #0f172b;
-    margin: auto;
     /* background-image: url(assets/bg-hero.jpg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(assets/bg-hero.jpg);
+    position: absolute;
+    top: 0px;
+    
 
-  
+    
+   
 }
+
+
 
 nav{
 
@@ -50,18 +63,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     font-family: Nunito, sans-serif;
-    position: sticky;
+    position: fixed;
     top: 0px;
+    z-index: 10;
 
 }
 
-.temp{
 
-
-   position: fixed;
-   top: 0px;
-   left: 0;
-}
 
 .logo{
 
